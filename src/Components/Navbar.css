@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+}
+.header
+{
+    width: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 9vh;
+}
+.header h1
+{
+    color: rgb(42, 31, 134);
+    width: 90%;
+    margin-left: 7px;
+}
+.header h3{
+   display: flex;
+   
+}
+.blue_box
+{
+    width: auto;
+    height: 10vh;
+    background-color: rgb(42, 31, 134);
+}
+.blue_box-active
+{
+    height: 20vh;
+}
+.box_items
+{
+    display: flex;
+}
+.box_items h2{
+    position: relative  ;
+}
+.blue_box h2{
+    color: white;
+    gap: 10px;
+}
+.home_dropdown img{
+    width: 20px;
+   
+}
+.dropdown_select
+{
+    display: flex;
+    align-items: center;
+}
+.dropdown_list
+{
+    display: none;
+}
+.dropdown_icon
+{
+    width: 30px;
+    margin-left: 10px;
+}
+.dropdown_list h3
+{
+  color: white;
+  margin-top: 10px;
+}
+.dropdown_list-active
+{
+    display: block;
+}
+.dropdown_list ul
+{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    color: white;
+   
+}
+.program_list
+{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    color: white;
+}
+.dropdown_list ul li
+{
+    list-style: none;
+    font-size: 20px;
+}
+.dropdown_list ul li:hover
+{
+  cursor: pointer;
+}
+.box_items
+{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin-left: 7rem;
+    gap: 20px;
+}
+.side_bar
+{
+    width: 9%;
+    height: 100vh;
+    float: left;
+    background-color: rgb(42, 31, 134);
+}
+
+.home
+{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home :hover
+{
+    background-color: white;
+}
+.modules
+{
+    height: 15vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modules-active
+{
+    background-color: white;
+}
+.modules :hover
+{
+    background-color: white;
+}
+.instructor
+{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.instructor :hover
+{
+    background-color: white;
+}
+.instructor_icon img{
+    width: 35px;
+    align-items: center;
+}
+.content
+{
+    width: 90%;
+    display: flex;
+    /* background-color: aqua; */
+    height: 100vh;
+}
+
